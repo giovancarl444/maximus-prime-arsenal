@@ -34,6 +34,12 @@ COMPONENTS = [
         "required": True
     },
     {
+        "name": "ComfyUI Server",
+        "cmd": ["python3", "/Users/midas/Code/ComfyUI/main.py", "--listen", "0.0.0.0"],
+        "check_port": 8188,
+        "required": False
+    },
+    {
         "name": "Webclaw Server",
         "cmd": ["/Users/midas/Code/webclaw/target/release/webclaw-mcp"],
         "check_port": None,
