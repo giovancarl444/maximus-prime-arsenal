@@ -34,6 +34,12 @@ COMPONENTS = [
         "required": True
     },
     {
+        "name": "Polymarket Bot",
+        "cmd": ["python3", "/Users/midas/Code/killshot/scripts/openbb_poly_bot.py"],
+        "check_port": None,
+        "required": False
+    },
+    {
         "name": "ComfyUI Server",
         "cmd": ["python3", "/Users/midas/Code/ComfyUI/main.py", "--listen", "0.0.0.0"],
         "check_port": 8188,
