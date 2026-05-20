@@ -34,6 +34,12 @@ COMPONENTS = [
         "required": True
     },
     {
+        "name": "Webclaw Server",
+        "cmd": ["/Users/midas/Code/webclaw/target/release/webclaw-mcp"],
+        "check_port": None,
+        "required": False
+    },
+    {
         "name": "Monitor Services",
         "cmd": ["python3", "/Users/midas/Code/killshot/scripts/monitor_services.py"],
         "check_port": None,
